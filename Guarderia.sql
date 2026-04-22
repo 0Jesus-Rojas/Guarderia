@@ -112,6 +112,8 @@ create TABLE NinosYAcudientes(
 		FOREIGN KEY(FK_id_acudientes) REFERENCES Acudiente(id_acudiente)
 );
 
+/*Por Jesus Rojas*/
+
 insert into TipoDocumento(id_tipo_documento, tipo_documento)
 values (1, 'Cedula de ciudadania'), (2, 'Cedula de extranjeria'), (3, 'PPT'), (4, 'Tarjeta de identidad');
 
